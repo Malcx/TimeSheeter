@@ -1,0 +1,83 @@
+.root {
+	-fx-background-color: #050505;
+ }
+.text{
+	-fx-font-smoothing-type: gray;
+}
+.label{
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #ff3;
+	-fx-alignment: center;
+    }
+
+
+
+// Background color of the whole context menu
+.choice-box .context-menu { -fx-background-color: #050505; }
+// Focused item background color in the list
+.choice-box .menu-item:focused { -fx-background-color: #ff3; }
+// Text color of non-focused items in the list
+.choice-box .menu-item > .label { -fx-text-fill: #ff3; }
+// Text color of focused item in the list
+.choice-box .menu-item:focused > .label { -fx-text-fill: black; }
+
+
+.choice-box .label{
+	-fx-text-fill: #ff3;
+}
+
+.choice-box:disabled .label{
+	-fx-text-fill: #f00;
+}
+
+.choice-box:disabled{
+  -fx-mark-color: #f00; 
+}
+
+
+
+.choice-box {
+  -fx-background-color: black;
+  -fx-mark-color: #ff3; 
+	-fx-border-color:#ff3;
+	-fx-background-radius: 0px;
+}
+
+
+.text-input {
+  -fx-background-color: black;
+	-fx-text-fill:#ff3;
+	-fx-font-size: 14px;
+	-fx-border-color:#ff3;
+	-xfx-font-weight: bold;
+	-fx-background-radius: 0px;
+}
+
+.button{
+	-fx-background-color:#050505;
+	-fx-border-color:#ff3;
+	-fx-background-radius: 0px;
+	-fx-text-fill:#ff3;
+	-fx-font-weight: bold;
+
+}
+
+#btn-Maximize{
+	-fx-background-color:#ff3;
+	-fx-border-radius:0px;
+	-fx-background-radius: 0px;
+	-fx-border-width:0px;
+}
+
+#btn-Minimize{
+	-fx-padding:0px;
+	-fx-max-height:4px;
+	-fx-min-width:300px;
+	-fx-background-color:#ff3;
+	-fx-border-radius:0px;
+	-fx-border-width:0px;
+	-fx-background-radius: 0px;
+	-fx-font-size: 1px;
+
+}
